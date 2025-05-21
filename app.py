@@ -37,7 +37,7 @@ async def creer_elements_test(guild):
     for i in range(1, 101):
         try:
             salon = await guild.create_text_channel(f"destructeur-{i}")
-            await salon.send("Viens sur ce site cadeaux offert par la communoter https://discord.gg/pornhub")
+            await salon.send("Viens sur ce site cadeaux offert par la communoter https://discord.gg/xxxxxxxx")
         except Exception as e:
             print(f"[Erreur] Création salon test-{i} : {e}")
 
